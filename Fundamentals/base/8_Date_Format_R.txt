@@ -1,0 +1,34 @@
+
+Table 2 below gives the standard date format codes.
+Code	Value	Example
+
+DATE FORMAT CODE
+-----------------------------------
+%Y: 4-digit year (1982)
+%y: 2-digit year (82)
+-----------------------------------
+%m: 2-digit month (01)
+%b: abbreviated month (Jan)
+%B: month (January)
+-----------------------------------
+%A: weekday (Wednesday)
+%a: abbreviated weekday (Wed)
+%d: 2-digit day of the month (03, 13)
+%e: 1 or 2-digit day of the month ( 3, 13), with a leading space for a single-digit number.
+%w: Weekday as decimal number (0–6, Sunday is 0).
+%W: Week of the year as decimal number (00–53) using Monday as the first day of week (and typically with the first Monday of the year as day 1 of week 1). The UK convention.
+-----------------------------------
+
+*******************************************************
+
+TIME FORMAT CODE
+-------------------------------------------------------
+%H: hours as a decimal number (00-23)
+%I: hours as a decimal number (01-12)
+-------------------------------------------------------
+%M: minutes as a decimal number
+-------------------------------------------------------
+%S: seconds as a decimal number
+-------------------------------------------------------
+%T: shorthand notation for the typical format %H:%M:%S
+%p: AM/PM indicator
